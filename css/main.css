@@ -1,0 +1,27 @@
+html {
+  font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  color: #fff;
+}
+
+.banner-content {
+  padding: 10em 0;
+  background-image: url("../images/banner.jpg");
+  background-repeat: repeat;
+  background-size: 100%;
+}
+
+.btn-ghost {
+  text-decoration: none;
+  color: #b4fff4;
+  border: 3px solid #b4fff4;
+  border-radius: 5px;
+}
+
+.icon-content {
+  border-bottom: 2px solid white;
+}
