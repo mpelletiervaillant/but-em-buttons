@@ -78,7 +78,8 @@ img {
   border: 0;
 }
 
-.img-flex {
+.img-flex,
+.img-flex img {
   display: block;
   width: 100%;
 }
@@ -328,6 +329,7 @@ svg.img-flex {
   width: 1px;
   border: 0;
   clip: rect(0 0 0 0);
+  clip-path: inset(50%);
 }
 
 .visually-hidden.focusable:active, .visually-hidden.focusable:focus {
@@ -337,6 +339,7 @@ svg.img-flex {
   position: static;
   width: auto;
   clip: auto;
+  clip-path: none;
 }
 
 .invisible {
@@ -603,6 +606,21 @@ svg.img-flex {
 
 .height-full, .h-1 {
   height: 100%;
+}
+
+.height-win-quarter, .h-w-1-4 {
+  height: 25vh;
+  max-height: 46em;
+}
+
+.height-win-half, .h-w-1-2 {
+  height: 50vh;
+  max-height: 46em;
+}
+
+.height-win-full, .h-w-1 {
+  height: 100vh;
+  max-height: 46em;
 }
 
 ul {
@@ -1174,6 +1192,7 @@ a:focus, [tabindex="0"]:focus {
     width: auto;
     border: 0;
     clip: initial;
+    clip-path: none;
   }
 
   /*
